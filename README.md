@@ -2,9 +2,7 @@
 
 ##A block expression:
 
-$$
-f(x)=x^2-3x+3
-$$
+![Block expressoin](/blockexpression1.png)
 
 created as follows:
 

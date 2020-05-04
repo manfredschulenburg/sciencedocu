@@ -38,7 +38,7 @@ Manfred Schulenburg
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/manfredschulenburg/simplemath/LICENSE](https://github.com/dbader/)
+[https://github.com/manfredschulenburg/simplemath/LICENSE]
 
 ## Contributing
 

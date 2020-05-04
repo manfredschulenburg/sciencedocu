@@ -1,27 +1,47 @@
-#Here comes the title
+# SimpleMath
+SimpleMath is a JavaScript display engine for mathematics that works in all browsers and that can be fully used offline. It used the syntax of LaTeX.
 
-##A block expression:
 
-![Block expressoin](/blockexpression1.png)
+## Credits/Origin
 
-created as follows:
+The simplemath project has its origin in the extension of deck.js with the same name provided here: https://github.com/twitwi/deck.js/tree/master/extensions/simplemath. Get more information here: https://home.heeere.com/tech-deckjs-ext.html
 
-```
-$$
-f(x)=x^2-3x+3
-$$
-```
 
-##Some chemistry examples
 
-![Chemistry](/chemistry1.png)
+## Usage example
 
-created as follows:
+SimpleMath can be included in any website with the following code:
 
-```
-$\ce{CO2 + C -> 2 CO}$
+<code>
+  
+  <script src="simplemath/extensions/includedeck/load.js"></script>
+       <script>
+            includedeck("profile-3", {
+               PREFIX: "simplemath/" 
+            })
+        </script>
+ </code>
 
-$\ce{3H2O}$
 
-$\ce{x Na(NH4)HPO4 ->[\Delta] (NaPO3)_x + x NH3 ^ + x H2O}$
-```
+
+## Release History
+
+
+* 0.0.1
+    * Work in progress
+
+## Meta
+
+Manfred Schulenburg
+
+Distributed under the MIT license. See ``LICENSE`` for more information.
+
+[https://github.com/yourname/github-link](https://github.com/dbader/)
+
+## Contributing
+
+1. Fork it (<https://github.com/yourname/yourproject/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request

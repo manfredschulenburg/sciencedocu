@@ -24,21 +24,13 @@ SimpleMath can be included in any website with the following code:
         </script>
  </code>
 
-
-
-## Release History
-
-
-* 0.0.1
-    * Work in progress
-
 ## Meta
 
 Manfred Schulenburg
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/manfredschulenburg/simplemath/LICENSE]
+[https://github.com/manfredschulenburg/simplemath/blob/master/LICENSE]
 
 ## Contributing
 

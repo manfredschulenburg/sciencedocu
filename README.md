@@ -1,6 +1,8 @@
 # SimpleMath
 SimpleMath is a JavaScript display engine for mathematics that works in all browsers and that can be fully used offline. It used the syntax of LaTeX.
 
+Check https://manfredschulenburg.github.io/simplemath/example.html to see what it looks like in action.
+
 
 ## Credits/Origin
 

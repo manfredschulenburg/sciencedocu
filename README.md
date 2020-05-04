@@ -23,6 +23,7 @@ SimpleMath can be included in any website with the following code:
             })
         </script>
  </code>
+ 
 
 ## Meta
 

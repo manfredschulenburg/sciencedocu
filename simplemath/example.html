@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            
+        <title>SimpleMath example</title>
+            
+            
+	<script src="simplemath/extensions/includedeck/load.js"></script>
+       <script>
+            includedeck("profile-3", {
+               PREFIX: "simplemath/" 
+            })
+        </script>
+<style>
+.code {
+border: 0px solid #9d9d9d;
+background: 	#D1D0CE;
+background: rgba(209, 208, 206, .5);
+font-family: courier;
+margin: 3px;
+margin-top: 0em;
+margin-bottom: 0em;
+word-wrap: break-word !important;
+}
+
+pre, code {
+  font-family: monospace, monospace;
+}
+pre {
+  overflow: auto;
+}
+pre > code {
+  display: block;
+  padding: 1rem;
+  word-wrap: normal;
+}
+</style>
+    </head>
+
+<body>
+
+<h1>SimpleMath - examples and comparison with MathJax</h1>
+
+
+    <h2>Some Examples</h2>
+	
+<div class="deck-container" style="margin-left:20px;">
+<section class="slide">
+    <span class="latex">e=mc^2</span><br><br>
+	<span class="latex">(\frac{x^2}{y^3})</span><br><br>
+    <span class="latex">[\begin{array}{cc} \sqrt{x} & 2 \\ 3 & x^4 \end{array}]</span><br><br>
+<span class="latex">
+                f(n) = \left\{
+                \begin{array}{l l}
+                   n/2      & \mbox{if } n \mbox{ is even}\\
+                   -(n+1)/2 & \mbox{if } n \mbox{ is odd}
+                \end{array}
+        </span><br><br>
+        <span class="latex">a^2 + \frac{1}{\sqrt{a^2 + \frac{1}{\sqrt{a^2 + \frac{1}{\sqrt{a^2 + b^{\infty}}}}}}}</span><br><br>
+		<span class="latex">
+		\begin{pmatrix}
+     1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^n \\
+     1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^n \\
+     \vdots  &amp; \vdots&amp; \vdots &amp; \ddots &amp; \vdots \\
+     1 &amp; a_m &amp; a_m^2 &amp; \cdots &amp; a_m^n    
+\end{pmatrix}
+		</span></section>
+		<br><br>
+<p>According to the pq formula, for any function of the form <span class="latex"> x^2+px+q </span> the zero points can be calculated as follows:</p>
+<p>
+<span class="latex">x_{1/2} = \frac{p}{2} \pm \sqrt{{(\frac{p}{2}})^2-q}</span></p>
+</section>
+<br>
+</div>
+
+
+
+<h2>The code of the examples</h2>
+
+<div class="code"><pre><code contenteditable spellcheck="false">
+
+&lt;div class="deck-container" style="margin-left:20px;"&gt;
+&lt;section class="slide"&gt;
+    &lt;span class="latex"&gt;e=mc^2&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+	&lt;span class="latex"&gt;(\frac{x^2}{y^3})&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+    &lt;span class="latex"&gt;[\begin{array}{cc} \sqrt{x} & 2 \\ 3 & x^4 \end{array}]&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+&lt;span class="latex"&gt;
+                f(n) = \left\{
+                \begin{array}{l l}
+                   n/2      & \mbox{if } n \mbox{ is even}\\
+                   -(n+1)/2 & \mbox{if } n \mbox{ is odd}
+                \end{array}
+        &lt;/span&gt;&lt;br&gt;&lt;br&gt;
+        &lt;span class="latex"&gt;a^2 + \frac{1}{\sqrt{a^2 + \frac{1}{\sqrt{a^2 + \frac{1}{\sqrt{a^2 + b^{\infty}}}}}}}&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+		&lt;span class="latex"&gt;
+		\begin{pmatrix}
+     1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^n \\
+     1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^n \\
+     \vdots  &amp; \vdots&amp; \vdots &amp; \ddots &amp; \vdots \\
+     1 &amp; a_m &amp; a_m^2 &amp; \cdots &amp; a_m^n    
+\end{pmatrix}
+		&lt;/span&gt;&lt;/section&gt;
+		&lt;br&gt;&lt;br&gt;
+&lt;p&gt;According to the pq formula, for any function of the form &lt;span class="latex"&gt; x^2+px+q &lt;/span&gt; the zero points can be calculated as follows:&lt;/p&gt;
+&lt;p&gt;
+&lt;span class="latex"&gt;x_{1/2} = \frac{p}{2} \pm \sqrt{{(\frac{p}{2}})^2-q}&lt;/span&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;br&gt;
+&lt;/div&gt;
+
+</code></pre></div>
+	<h2>Comparison with MathJax</h2>
+    <h3>Advantages</h3>
+    <ul>
+        <li>Works fully offline</li>
+        <li>Interprets LaTeX syntax</li>
+        <li>Generates MathML (web standard for maths)</li>
+        <li>Lets your browser render the MathML</li>
+
+    </ul>
+
+	    <h3>Disadvantages</h3>
+    <ul>
+		<li><section class="slide deck-container">It is not possible to join two characters: in <span class="latex">e=mc^2</span> the "m" and the "c" are too much separated.</section></li>
+		<li>Cannot be easily integrated in Markdown, i.e. with the LaTex-Syntax $ or $$ instead of the html code</li>
+        <li>Does not support chemistry notation</li>
+		
+    </ul>
+<br>
+	
+	<p>In MathJax the following code</p>
+<div class="code"><pre><code contenteditable spellcheck="false">
+\ce{CO2 + C -> 2 CO}
+\ce{3H2O}
+\ce{x Na(NH4)HPO4 ->[\Delta] (NaPO3)_x + x NH3 ^ + x H2O}
+</code></pre></div>
+
+<p>would be rendered as follows:</p>
+<p><img src="chemistry.png" alt="Chemistry rendered with MathJax"></p>
+<p>That is not possible with SimpleMath.
+
+
+<h2>Conclusion</h2>
+
+<p>In my view, in most cases the capabilities of SimpleMath are good enough for the use in websites. The fact that it is fully working offline is a real advantage.</p>
+
+<p>The disadvantages seem minor to me. Therefore, SimpleMath can be a real alternative to MathJax.</p>
+</div>
+</body>
+</html>

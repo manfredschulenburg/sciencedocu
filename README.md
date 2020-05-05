@@ -25,19 +25,20 @@ SimpleMath can be included in any website with the following code:
  </code>
  
 ## Criticism
-  # Advantages
-    
-    * Works fully offline
-    * Interprets LaTeX syntax
-    * Generates MathML (web standard for maths)
-    * Lets your browser render the MathML
 
-	# Disadvantages
+# Advantages
     
-		* Based on jquery. Therefore, it is for security reasons not supported by Android and iphone.
-		* It is not possible to join two characters: in e=mc^2 the "m" and the "c" are too much separated.
-		* Cannot be easily integrated in Markdown, i.e. with the LaTex-Syntax $ or $$ instead of the html code
-    * Does not support chemistry notation
+  * Works fully offline
+  * Interprets LaTeX syntax
+  * Generates MathML (web standard for maths)
+  * Lets your browser render the MathML
+
+# Disadvantages
+    
+* Based on jquery. Therefore, it is for security reasons not supported by Android and iphone.
+* It is not possible to join two characters: in e=mc^2 the "m" and the "c" are too much separated.
+* Cannot be easily integrated in Markdown, i.e. with the LaTex-Syntax $ or $$ instead of the html code
+* Does not support chemistry notation
 		
 
 # Conclusion

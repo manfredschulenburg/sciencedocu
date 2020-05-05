@@ -36,7 +36,7 @@ SimpleMath can be included in any website with the following code:
 *Disadvantages*
     
 * Based on jquery. Therefore, it is for security reasons not supported by Android and iphone.
-* It is not possible to join two characters: in e=mc^2 the "m" and the "c" are too much separated.
+* It is not possible to join two characters: in e=mc^2 the "m" and the "c" are too separated.
 * Cannot be easily integrated in Markdown, i.e. with the LaTex-Syntax $ or $$ instead of the html code
 * Does not support chemistry notation
 		
